@@ -1,15 +1,15 @@
-package tn.esprit.pi.services;
+    package tn.esprit.pi.services;
 
-import tn.esprit.pi.entities.Feedback;
+    import tn.esprit.pi.entities.Feedback;
 
-import java.util.List;
+    import java.util.List;
 
-public interface IGestionFeedback {
-    public List<Feedback> retrieveAllFeeddbacks();
+    public interface IGestionFeedback {
+        public List<Feedback> retrieveAllFeeddbacks();
 
-    public Feedback addorUpdateFeedback(Feedback feedback);
+        public Feedback addorUpdateFeedback(Feedback feedback);
 
-    public void removeFeedback(Long id);
+        public void removeFeedback(Long id);
 
-    public Feedback retrieveFeedback(Long id);
-}
+        public Feedback retrieveFeedback(Long id);
+    }
